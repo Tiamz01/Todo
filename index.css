@@ -1,0 +1,98 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: blueviolet;
+	height: 100%;
+}
+
+h1 {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 2rem;
+	font-weight: 300;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+}
+.container {
+	background: whitesmoke;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 2rem;
+	border-radius: 0.4rem;
+	max-width: 30rem;
+}
+
+.input-holder {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 1rem;
+}
+
+#inputField {
+	width: 20rem;
+	height: 1.3rem;
+	border-radius: 0.5rem;
+	font-size: 1.2rem;
+	padding: 1rem;
+	border: 2px blue solid;
+}
+#inputField:focus {
+	outline: none;
+	border-color: green;
+}
+
+#btn {
+	height: 2rem;
+	width: 3rem;
+	border-radius: 0.2rem;
+	background: #f54545;
+	border: none;
+}
+
+#todoContainer {
+	height: auto;
+	margin-top: 2rem;
+}
+
+.task {
+	color: rgb(176, 202, 176);
+	background-color: #f45434;
+	width: 100%;
+	height: 2rem;
+	border-radius: 7px;
+	padding: 0 1rem;
+	line-height: 0.2rem;
+	font-size: 1.4rem;
+	font-weight: 200;
+	display: flex;
+	margin-bottom: 0.5rem;
+	padding: 5px 1rem;
+	align-items: center;
+	justify-content: space-between;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.task button {
+	background-color: transparent;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	color: rgb(243, 240, 235);
+}
+
+#edit {
+	margin-right: 1rem;
+}
