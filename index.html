@@ -26,17 +26,34 @@
 			<div class="input-holder">
 				<input
 					type="text"
+					class="inputField"
 					id="inputField"
 					placeholder="Add task"
 				/>
 				<button
 					id="btn"
+					class="btn"
 					onclick="{todoAdder}"
 				>
 					Add
 				</button>
 			</div>
 			<div id="todoContainer"></div>
+		</div>
+		<div class="editContainer">
+			<div class="editInputField">
+				<input
+					type="text"
+					class="inputField"
+					id="editInput"
+				/>
+				<button
+					id="saveBtn"
+					class="btn"
+				>
+					Save
+				</button>
+			</div>
 		</div>
 
 		<script src="index.js"></script>

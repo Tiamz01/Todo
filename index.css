@@ -41,7 +41,7 @@ h1 {
 	margin-bottom: 1rem;
 }
 
-#inputField {
+.inputField {
 	width: 20rem;
 	height: 1.3rem;
 	border-radius: 0.5rem;
@@ -49,12 +49,12 @@ h1 {
 	padding: 1rem;
 	border: 2px blue solid;
 }
-#inputField:focus {
+.inputField:focus {
 	outline: none;
 	border-color: green;
 }
 
-#btn {
+.btn {
 	height: 2rem;
 	width: 3rem;
 	border-radius: 0.2rem;
@@ -95,4 +95,31 @@ h1 {
 
 #edit {
 	margin-right: 1rem;
+}
+
+.editContainer {
+	position: absolute;
+	width: 30rem;
+	height: 15rem;
+	background-color: #d2e6d2;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	/* background: transparent; */
+	/* background-color: #f45434; */
+	transform: translate(-50%, 50%);
+	filter: blur(3px);
+}
+
+.editInputField {
+	max-width: 30rem;
+	height: 10rem;
+	padding: 0 2rem;
+	height: 10rem;
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+	justify-content: center;
+	background: transparent;
+	z-index: 200;
 }
