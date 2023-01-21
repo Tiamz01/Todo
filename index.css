@@ -68,6 +68,9 @@ h1 {
 }
 
 .task {
+	list-style: none;
+}
+.taskList {
 	color: rgb(176, 202, 176);
 	background-color: #f45434;
 	width: 100%;
@@ -78,6 +81,7 @@ h1 {
 	font-size: 1.4rem;
 	font-weight: 200;
 	display: flex;
+	display: flex;
 	margin-bottom: 0.5rem;
 	padding: 5px 1rem;
 	align-items: center;
@@ -85,7 +89,7 @@ h1 {
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.task button {
+.taskList button {
 	background-color: transparent;
 	outline: none;
 	border: none;
@@ -110,6 +114,10 @@ h1 {
 	transform: translate(-50%, 50%);
 	filter: blur(3px);
 	z-index: 3;
+}
+
+#editPage {
+	display: none;
 }
 
 .editInputField {
